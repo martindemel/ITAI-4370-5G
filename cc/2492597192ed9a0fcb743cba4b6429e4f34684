@@ -1,0 +1,19 @@
+Labs/L01_Communication_System_Signal_Flow/Lab1_Communication_System.ipynb
+  s_2bbe5d572739e6::t_c8e4d7b65ccb2e 1-222
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.13",
+  "base_commit_sha": "cc2492597192ed9a0fcb743cba4b6429e4f34684",
+  "prompts": {},
+  "sessions": {
+    "s_2bbe5d572739e6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "999d0b93-750a-4c2a-adb9-3d5537b2db42",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Martin Demel <martin.demel@gmail.com>"
+    }
+  }
+}
