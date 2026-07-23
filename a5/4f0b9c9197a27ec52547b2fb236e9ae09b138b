@@ -1,0 +1,30 @@
+Course_Portfolio/Growth_Evidence.md
+  s_2bbe5d572739e6::t_1ae31a425b2bd6 15
+  s_2bbe5d572739e6::t_6a7e1b6e25e183 28
+  s_2bbe5d572739e6::t_cd0cf677d61737 40
+Assignments/A04_Ethical_AI/README.md
+  s_2bbe5d572739e6::t_46eca1de6efcba 1-9
+README.md
+  s_2bbe5d572739e6::t_64d5fce36427db 27-28
+  s_2bbe5d572739e6::t_4548036bb54066 54
+  s_2bbe5d572739e6::t_feb52f615af2d3 74
+Course_Portfolio/README.md
+  s_2bbe5d572739e6::t_2e78aafa31e162 14
+  s_2bbe5d572739e6::t_4ef1a8676bd267 16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "a54f0b9c9197a27ec52547b2fb236e9ae09b138b",
+  "prompts": {},
+  "sessions": {
+    "s_2bbe5d572739e6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "999d0b93-750a-4c2a-adb9-3d5537b2db42",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Martin Demel <martin.demel@gmail.com>"
+    }
+  }
+}
