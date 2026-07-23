@@ -4,4 +4,4 @@ The Final Exam for ITAI 4370 is an individual portfolio recording, for each modu
 
 **File.** `FE Martin Demel ITAI 4370.pdf` — the submitted portfolio, exported from this repository's [root README](../README.md) on July 13, 2026.
 
-The README version and this PDF have identical content; the README additionally links directly into each assignment, lab, and project folder in the repo.
+The PDF is the point-in-time snapshot of the repository's root README as submitted for the Final Exam. The README continues to serve as the live [Course Portfolio](../Course_Portfolio/) index and has since gained portfolio-specific sections (reflective essays, project documentation, growth evidence) that postdate this snapshot.

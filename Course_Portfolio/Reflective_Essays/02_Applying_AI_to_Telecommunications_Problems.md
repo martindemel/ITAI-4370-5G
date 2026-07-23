@@ -1,0 +1,27 @@
+# Reflective Essay 2 — How I Applied AI Concepts to Solve Telecommunications Problems
+
+*Martin Demel · ITAI 4370 · Summer 2026*
+
+Every AI application I built in this course attacked the same underlying telecommunications problem from a different angle: **a network has finite resources and variable demand, and the gap between the two is where congestion, latency, and outages live.** Over five weeks I applied machine learning to anticipate that demand, simulation to understand its dynamics, and model compression to put the intelligence where the network needs it. This essay walks through the four problems I solved and what each taught me.
+
+## Problem 1: Anticipating demand before it arrives
+
+The first real application was Laboratory 3. The problem statement was operational: an hour from now, how much traffic will this network carry? I generated a synthetic year of hourly traffic with daily, weekly, and business-hours structure, engineered lag features (the traffic 1 hour and 24 hours earlier, plus a 7-day rolling average), and trained a Random Forest. Two decisions mattered more than the model choice. First, splitting the data in time order rather than shuffling, so the model was evaluated the way a deployed forecaster would be — on hours it had never seen. Second, reading the feature importances rather than just the score: the previous hour dominated at 0.816, which told me network traffic is *habitual*, and that most of the predictive power in a RAN scheduler comes from very recent history. The final test R² of 0.893 was less important to me than understanding *why* it was achievable.
+
+## Problem 2: Choosing the right model — and catching a lie
+
+Laboratory 4 turned one predictor into a controlled comparison: ARIMA(2,1,2), linear regression on sixteen engineered features, and a PyTorch LSTM, all forecasting the same simulated year. The results were extreme — ARIMA at R² −0.181, regression at 0.572, the LSTM at 0.897 — and each number taught a different lesson. A non-seasonal ARIMA forecasting a long horizon flattens to the mean of cyclical traffic; hand-built lag features can recover the weekly rhythm for a linear model; a sequence model learns the daily shape directly from raw data.
+
+But the most valuable thing that happened in this lab was a bug. The course brief's feature code computed moving averages over windows that *included the hour being predicted*. The model scored a perfect R² of 1.0 — and it was completely worthless, because it was reading the answer out of its own input. Recognizing that as target leakage, and fixing it by shifting every window to use only past hours, was the single most transferable AI skill I practiced all term: **a suspiciously good score is a bug report, not a result.** In a real O-RAN deployment, a leaky traffic model would validate beautifully and then fail in production, steering resources with predictions it can no longer make.
+
+## Problem 3: Networks that react to themselves
+
+The midterm applied AI-adjacent modeling to the control side. I built a SimPy discrete-event simulation of packets queueing through three routers, which made latency tangible as an emergent property of shared resources; a Mesa agent-based model of five routers on a small-world graph, each rerouting traffic when its load crossed 80% — congestion appearing and dissolving from purely local rules, with no central controller; and a lag-feature regression predicting traffic so that routing decisions could be made *before* saturation instead of after. Together the three pieces are a miniature of a Self-Organizing Network: observe, predict, act. The Mesa model in particular changed how I think about "self-healing" — it is not one algorithm but a property that emerges when every node follows simple adaptive rules.
+
+## Problem 4: Fitting the intelligence where it has to live
+
+The final application inverted the question: instead of making models smarter, make them *smaller*. Multi-access Edge Computing only reduces latency if the model can physically run at the edge, so in Laboratory 5 I compressed a 96.2%-accurate baseline classifier three ways: pruning half the weights (96.7% after fine-tuning, 2× smaller), INT8 quantization (96.1%, 4× smaller), and knowledge distillation into a student one-tenth the size (92.7%, and the only variant that actually ran faster — 0.029 ms — because zeroed weights and simulated integers shrink storage, not compute, on standard hardware). When the brief's TensorFlow code crashed in my environment, I reimplemented the entire lab in PyTorch, which forced me to understand each technique well enough to build it rather than run it — including implementing the distillation loss the brief had defined but never actually used.
+
+## What the four problems add up to
+
+The through-line I take away is that AI in telecommunications is not a chatbot bolted onto a network; it is an unglamorous, operational loop — **forecast demand, allocate resources, detect anomalies, compress the model until it fits next to the radio** — running on the RIC's two timescales. Every week of this course I built one piece of that loop with my own hands, and the pieces compose: the forecasting of Labs 3–4 is what an xApp consumes, the emergent adaptation of the midterm is what SON automates, and the compression of Lab 5 is what makes any of it deployable at the edge. That composition, more than any single model, is what I now understand.

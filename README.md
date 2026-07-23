@@ -17,7 +17,7 @@ I selected this course because modern networks are where AI stops being an app a
 
 ## What's in this repo
 
-A portfolio of the assignments, laboratories, midterm, and final exam I completed for the course.
+This repository is my **live Course Portfolio** for ITAI 4370: the assignments, laboratories, midterm, and final exam I completed, plus the reflective essays, project documentation, and growth evidence of the Course Portfolio assessment.
 
 ```
 ITAI-4370-5G/
@@ -33,7 +33,11 @@ ITAI-4370-5G/
 │   └── L05_Edge_Model_Optimization/
 ├── Midterm/
 │   └── Network_Simulation_and_Prediction/
-├── Final_Exam_Portfolio/                        (this portfolio as the submitted PDF)
+├── Course_Portfolio/                            (reflective essays · project documentation · growth evidence)
+│   ├── Reflective_Essays/
+│   ├── Project_Documentation.md
+│   └── Growth_Evidence.md
+├── Final_Exam_Portfolio/                        (module-by-module portfolio as the submitted PDF)
 └── assets/                                      (figures used in this README)
 ```
 
@@ -61,6 +65,13 @@ ITAI-4370-5G/
 
 - [Midterm — Network Simulation & Predictive Optimization](Midterm/Network_Simulation_and_Prediction/) (SimPy · Mesa · scikit-learn)
 - [Final Exam — this Portfolio](Final_Exam_Portfolio/) (submitted as `FE Martin Demel ITAI 4370.pdf`)
+
+### Course Portfolio (15% assessment)
+
+- [Portfolio guide & rubric map](Course_Portfolio/) — where every required component lives
+- Reflective essays: [How my understanding of telecommunications evolved](Course_Portfolio/Reflective_Essays/01_How_My_Understanding_of_Telecommunications_Evolved.md) · [Applying AI to telecommunications problems](Course_Portfolio/Reflective_Essays/02_Applying_AI_to_Telecommunications_Problems.md) · [Skills improved & future growth](Course_Portfolio/Reflective_Essays/03_Skills_Improved_and_Areas_for_Future_Growth.md)
+- [Project documentation](Course_Portfolio/Project_Documentation.md) — problem statements, methods, code, results, and interpretation for all six practical projects
+- [Growth evidence](Course_Portfolio/Growth_Evidence.md) — the basic → advanced progression, with links to dated artifacts
 
 ---
 
