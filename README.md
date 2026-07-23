@@ -24,7 +24,8 @@ ITAI-4370-5G/
 ├── Assignments/
 │   ├── A01_Telecommunications_Fundamentals/
 │   ├── A02_5G_Architecture_and_Intelligence/
-│   └── A03_AI_ML_and_Open_RAN/
+│   ├── A03_AI_ML_and_Open_RAN/
+│   └── A04_Ethical_AI/
 ├── Labs/
 │   ├── L01_Communication_System_Signal_Flow/   (+ extended notebook & BPSK analysis suite)
 │   ├── L02_RF_Propagation_FSPL/
@@ -50,6 +51,7 @@ ITAI-4370-5G/
 | A01 | [Telecommunications Fundamentals](Assignments/A01_Telecommunications_Fundamentals/) | June 8, 2026 |
 | A02 | [5G Architecture & Intelligence](Assignments/A02_5G_Architecture_and_Intelligence/) | June 15, 2026 |
 | A03 | [AI/ML Applications & Open RAN](Assignments/A03_AI_ML_and_Open_RAN/) | June 22, 2026 |
+| A04 | [Ethical AI](Assignments/A04_Ethical_AI/) | July 20, 2026 |
 
 ### Laboratories
 
@@ -69,7 +71,7 @@ ITAI-4370-5G/
 ### Course Portfolio (15% assessment)
 
 - [Portfolio guide & rubric map](Course_Portfolio/) — where every required component lives
-- Reflective essays: [How my understanding of telecommunications evolved](Course_Portfolio/Reflective_Essays/01_How_My_Understanding_of_Telecommunications_Evolved.md) · [Applying AI to telecommunications problems](Course_Portfolio/Reflective_Essays/02_Applying_AI_to_Telecommunications_Problems.md) · [Skills improved & future growth](Course_Portfolio/Reflective_Essays/03_Skills_Improved_and_Areas_for_Future_Growth.md)
+- [Reflective essays](Course_Portfolio/Reflective_Essays/ITAI_4370_DEMEL_REFLECTIVE_ESSAYS.pdf) (three, compiled as one PDF): how my understanding of telecommunications evolved · applying AI to telecommunications problems · skills improved & future growth
 - [Project documentation](Course_Portfolio/Project_Documentation.md) — problem statements, methods, code, results, and interpretation for all six practical projects
 - [Growth evidence](Course_Portfolio/Growth_Evidence.md) — the basic → advanced progression, with links to dated artifacts
 

@@ -1,0 +1,9 @@
+# A04 — Ethical AI
+
+APA-style paper answering thirty questions on the ethics of artificial intelligence (week of July 20, 2026).
+
+**What I did.** Section A covers the conceptual foundations: what Ethical AI is, the core principles (fairness, transparency, accountability, privacy), and the major international frameworks — IEEE Ethically Aligned Design, UNESCO's Recommendation on the Ethics of AI, the OECD AI Principles, and the EU AI Act's risk-tier system. Section B applies those principles to concrete scenarios: biased recruitment tools, the self-driving trolley problem, predictive-policing feedback loops, human-in-the-loop design, GDPR's effect on AI systems, deepfakes, public surveillance, financial transparency, healthcare diagnostics, and dataset fairness. Section C reflects on the future: whether AI can ever be unbiased, regulation vs. self-regulation, Quantum AI, generative AI and intellectual property, developer responsibility, AI sustainability, emerging ethics professions, the most pressing issue of 2035, and my own role as a professional.
+
+**What I learned.** The world's major AI-ethics frameworks agree far more than they differ — fairness, transparency, accountability, privacy, human oversight, sustainability — and the hard part is operational, not philosophical. The connection to this course runs deep: the self-optimizing networks we built and studied are autonomous decision-makers, and the accountability question ("who answers when the automation is wrong?") applies to a RAN Intelligent Controller exactly as it does to a hiring tool. My answers draw on the course experience directly, from the target-leakage bug that taught me to distrust perfect metrics to the 10× model compression that made AI sustainability concrete.
+
+**File.** `ITAI_4370_DEMEL_ASSIGNMENT_4.pdf`

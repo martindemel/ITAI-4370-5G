@@ -12,6 +12,7 @@ This document makes the progression across the course explicit. Every claim link
 | June 29 | [Midterm](../Midterm/Network_Simulation_and_Prediction/) · [Lab 4](../Labs/L04_Time_Series_Prediction/) | **Advanced modeling** | Three simulation/AI paradigms (discrete-event, agent-based, predictive); three forecasting families compared (ARIMA / regression / **PyTorch LSTM**, R² 0.897); independent discovery and fix of a target-leakage bug |
 | July 6 | [Lab 5](../Labs/L05_Edge_Model_Optimization/) | **Advanced deployment** | Neural-network compression built by hand (pruning, INT8 quantization, knowledge distillation, 10.5×); full reimplementation of a TensorFlow brief in PyTorch |
 | July 13+ | [Final Exam Portfolio](../Final_Exam_Portfolio/) · [Course Portfolio](./) | **Synthesis** | Module-by-module integration of physics, architecture, and intelligence; reflective analysis of the learning arc |
+| July 20 | [Assignment 4](../Assignments/A04_Ethical_AI/) | **Responsible AI** | Ethics of AI systems: international frameworks (IEEE, UNESCO, OECD, EU AI Act), scenario analysis, and accountability for the autonomous networks built earlier in the course |
 
 ## Skills matrix: where I started → where I ended
 
@@ -24,7 +25,7 @@ This document makes the progression across the course explicit. Every claim link
 | Evaluation rigor | Trusted reported metrics | Time-ordered splits; caught and fixed target leakage (R² 1.0 → honest 0.572); documented fair-comparison caveats ([Lab 4](../Labs/L04_Time_Series_Prediction/)) |
 | Network simulation | None | Discrete-event (SimPy) and agent-based (Mesa) models of latency, congestion, and self-healing ([Midterm](../Midterm/Network_Simulation_and_Prediction/)) |
 | 5G/O-RAN architecture | Buzzword level | Can explain EPC vs 5GC, SBA/NRF, slicing service classes, MEC placement, Near-RT vs Non-RT RIC with concrete examples ([A02](../Assignments/A02_5G_Architecture_and_Intelligence/), [A03](../Assignments/A03_AI_ML_and_Open_RAN/)) |
-| Technical communication | Operational documentation (ITSM) | Three APA papers, six reproducible notebooks, and this structured public portfolio |
+| Technical communication | Operational documentation (ITSM) | Four APA papers, six reproducible notebooks, and this structured public portfolio |
 
 ## Three progression arcs (with proof)
 
@@ -36,4 +37,4 @@ This document makes the progression across the course explicit. Every claim link
 
 ## Performance summary (assessment artifacts)
 
-All graded artifacts are in this repository as evidence of performance and progress: [three assignments](../Assignments/), [five laboratories](../Labs/) (each notebook with embedded, reproducible results), the [midterm](../Midterm/Network_Simulation_and_Prediction/), and the [Final Exam portfolio](../Final_Exam_Portfolio/) (17-page PDF). Headline results: BER validated to theory (Lab 1), FSPL band analysis (Lab 2), test R² 0.893 (Lab 3), LSTM R² 0.897 beating ARIMA and regression (Lab 4), 10.5× model compression at −3.5 accuracy points (Lab 5).
+All graded artifacts are in this repository as evidence of performance and progress: [four assignments](../Assignments/), [five laboratories](../Labs/) (each notebook with embedded, reproducible results), the [midterm](../Midterm/Network_Simulation_and_Prediction/), and the [Final Exam portfolio](../Final_Exam_Portfolio/) (17-page PDF). Headline results: BER validated to theory (Lab 1), FSPL band analysis (Lab 2), test R² 0.893 (Lab 3), LSTM R² 0.897 beating ARIMA and regression (Lab 4), 10.5× model compression at −3.5 accuracy points (Lab 5).
