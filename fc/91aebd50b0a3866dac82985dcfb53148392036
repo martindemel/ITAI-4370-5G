@@ -1,0 +1,34 @@
+Course_Portfolio/Reflective_Essays/01_How_My_Understanding_of_Telecommunications_Evolved.md
+  s_2bbe5d572739e6::t_5eb9f5d212bf2e 1-17
+Course_Portfolio/Reflective_Essays/03_Skills_Improved_and_Areas_for_Future_Growth.md
+  s_2bbe5d572739e6::t_26c2cd41370f7f 1-31
+Final_Exam_Portfolio/README.md
+  s_2bbe5d572739e6::t_28cc46639716ef 7
+Course_Portfolio/Project_Documentation.md
+  s_2bbe5d572739e6::t_461ca4be9e41cb 1-158
+Course_Portfolio/Growth_Evidence.md
+  s_2bbe5d572739e6::t_9f8fa00e0ab7af 1-39
+Course_Portfolio/Reflective_Essays/02_Applying_AI_to_Telecommunications_Problems.md
+  s_2bbe5d572739e6::t_e4dd7553f9a014 1-27
+README.md
+  s_2bbe5d572739e6::t_5626bad672f45c 20,36-40
+  s_2bbe5d572739e6::t_307c610bcdeb90 69-75
+Course_Portfolio/README.md
+  s_2bbe5d572739e6::t_24685d6ef0ac94 1-24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "fc91aebd50b0a3866dac82985dcfb53148392036",
+  "prompts": {},
+  "sessions": {
+    "s_2bbe5d572739e6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "999d0b93-750a-4c2a-adb9-3d5537b2db42",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Martin Demel <martin.demel@gmail.com>"
+    }
+  }
+}
