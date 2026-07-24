@@ -6,4 +6,4 @@ APA-style paper answering thirty questions on the ethics of artificial intellige
 
 **What I learned.** The world's major AI-ethics frameworks agree far more than they differ — fairness, transparency, accountability, privacy, human oversight, sustainability — and the hard part is operational, not philosophical. The connection to this course runs deep: the self-optimizing networks we built and studied are autonomous decision-makers, and the accountability question ("who answers when the automation is wrong?") applies to a RAN Intelligent Controller exactly as it does to a hiring tool. My answers draw on the course experience directly, from the target-leakage bug that taught me to distrust perfect metrics to the 10× model compression that made AI sustainability concrete.
 
-**File.** `ITAI_4370_DEMEL_ASSIGNMENT_4.pdf`
+**Files.** `ITAI_4370_DEMEL_ASSIGNMENT_4.docx` (submission, standard course format) · `ITAI_4370_DEMEL_ASSIGNMENT_4.pdf`
