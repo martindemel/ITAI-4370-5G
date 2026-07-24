@@ -1,0 +1,23 @@
+Course_Portfolio/README.md
+  s_2bbe5d572739e6::t_6a9e64731dda10 14
+.gitignore
+  s_2bbe5d572739e6::t_975af71ba7a539 4-6
+Assignments/A04_Ethical_AI/README.md
+  s_2bbe5d572739e6::t_b5331796f31907 9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "5ea768ee135aa80c36a546b18b703b282e948a33",
+  "prompts": {},
+  "sessions": {
+    "s_2bbe5d572739e6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "999d0b93-750a-4c2a-adb9-3d5537b2db42",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Martin Demel <martin.demel@gmail.com>"
+    }
+  }
+}
